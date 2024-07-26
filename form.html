@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        form{
+            display: flex;
+            flex-direction:column;
+            font-size:small;
+            border: 2px solid rgb(241, 241, 246);
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgb(75, 75, 206);
+            
+        }
+        label{
+            font-size: 25px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            color: rgb(187, 38, 38);
+            background-color: rgb(244, 244, 249);
+            
+
+        }
+        input{
+            width: 300px;
+            height: 20px;
+            font-size: larger;
+            font-family: 'Courier New', Courier, monospace;
+            border-radius: 8px;
+            background-color: rgb(246, 241, 241);
+            color: rgb(111, 6, 160);
+            border-color: blue;
+            
+    
+        }
+        #submit{
+            width: 200px;
+            border-radius: 8px;
+            background-color: rgb(230, 248, 237);
+        }
+        #submit:hover{
+            background-color: rgb(9, 242, 52);
+        }
+        #reset{
+            width: 200px;
+            border-radius: 8px;
+            background-color: rgb(233, 95, 15);
+
+        }
+        #reset:hover{
+            background-color: rgb(207, 194, 194);
+        }
+
+
+            
+            
+        
+    </style>
+</head>
+<body>
+<fieldset>
+   <legend> Registration Form</legend>
+    <form action>
+        <label for="">First Name:</label>
+        <input type="text" placeholder="Enter the First name">
+        <label for="">Last Name:</label>
+        <input type="text"placeholder="Enter the Last name">
+        <label for="">Contact:</label>
+        <input type="tel"placeholder="Enter your number">
+        <label for="">GMail:</label>
+        <input type="text" placeholder="Enter your email">
+        <label for="">DOB:</label>
+        <input type="text"placeholder="Enter the DOB">
+
+        <button type="Submit" id="submit">Submit</button>    
+         <button type="reset"  id="reset">Reset</button>
+        
+        
+
+
+    </form>
+</fieldset>
+</body>
+</html>
